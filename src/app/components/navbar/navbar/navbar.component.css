@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* start logo */
+.logo {
+  padding: 20px 20px 0 20px;
+}
+.logo img {
+  height: 40px;
+  width: 50px;
+  margin-bottom: 12px;
+  border-right: 2px solid rgb(227, 15, 15);
+}
+.logo p {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: 6px;
+  color: rgb(227, 15, 15);
+}
+/* end logo */
+
+/* start navbar colors */
+.navbar {
+  position: relative;
+  background-color: #262525;
+}
+.nav-link {
+  color: rgb(227, 15, 15);
+}
+.navbar-toggler-icon {
+  background-color: rgba(255, 0, 0, 0.769);
+}
+/* end nav bar colors */
+
+/* start drop down */
+.dropdown-sections {
+  display: none;
+}
+.dropdown:hover .dropdown-sections {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 25px;
+  width: 414px;
+}
+
+.dropdown-sections li {
+  list-style-type: none;
+  padding: 10px;
+}
+.dropdown-sections {
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 0, 0, 0.769);
+}
+
+/* end drop down */
+
+/* button */
+.btn {
+  color: rgba(255, 0, 0, 0.769);
+}

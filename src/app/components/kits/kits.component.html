@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>ALAHLY KITS</h2>
+  <app-catagory></app-catagory>
+  <div class="row">
+    <div
+      *ngFor="let k of kitimageArray"
+      class="card col-lg-4 ms-2 mt-2"
+      style="width: 18rem"
+    >
+      <img src="{{ k.imageUrl }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ k.description }}</h5>
+        <p class="card-text">
+          {{ k.price }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
